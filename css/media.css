@@ -1,0 +1,85 @@
+@media (min-width: 1400px){
+    .container {
+        width: 1340px;
+    }
+}
+/* ...  */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .container {
+        width: 1140px;
+    }
+}
+/* ...  */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .item-div-s2 {
+        width: 30%;
+    }
+}
+/* ....... */
+@media (max-width: 992px) {
+    .container {
+        width: 750px;
+    }
+    .item-div-s2 {
+        width: 27%;
+    }
+    .item-div-s3{
+        width: 100%;
+    }
+    .item-div-s5 {
+        width: 45%;
+    }
+    .contact {
+        flex-direction: column;
+        gap: 7vh;
+    }
+    .contact-info , form {
+        width: 100%;
+    }
+    button {
+        font-size: 20px;
+        min-width: 200px;
+        padding: 14px 16px;
+    }
+}
+/* ....... */
+@media (max-width :768px) {
+    :root {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    /* h2 {
+        font-size: 1.6rem;
+    } */
+    .container {
+        width: 576px;
+    }
+    .nav-div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .item-div-s2,.item-div-s4 ,.item-div-s1 ,.item-div-s5  {
+        width:100%;
+        margin-bottom: 5vh;
+    }
+}
+/* ....  */
+@media (max-width :576px) {
+    .container {
+        width: 85%;
+    }
+    .item-div-s1 {
+        width: 100%;
+        margin-bottom: 7vh;
+    }
+   
+}
